@@ -5,10 +5,10 @@ class Solution {
         
         for(int i=0; i<absolutes.length; i++){
 	        if(signs[i] == false){
-	            absolutes[i] = absolutes[i]*(-1);			
+	            absolutes[i] *= (-1);			
 	        }
 	
-	    sum = sum + absolutes[i];
+	    sum += absolutes[i];
         }
         
         return sum;
